@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">triangulo</string>
+    <string name="es_un_tri_ngulo">¿Es un Triángulo?</string>
+    <string name="validador_de_tri_ngulos">Validador de Triángulos</string>
+</resources>

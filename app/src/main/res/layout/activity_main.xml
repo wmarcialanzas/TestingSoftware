@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/validador_de_tri_ngulos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText android:id="@+id/sideA" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lado A" android:inputType="numberDecimal"/>
+    <EditText android:id="@+id/sideB" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lado B" android:inputType="numberDecimal"/>
+    <EditText android:id="@+id/sideC" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lado C" android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/es_un_tri_ngulo"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"/>
+</LinearLayout>
